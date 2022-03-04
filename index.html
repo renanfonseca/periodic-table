@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <title>Tabela Periódica</title>
+</head>
+
+<body>
+
+    <div id="particles-js"></div>
+    <div class="periodic-table-container">
+        <h1 class="periodic-table-title">Tabela Periódica</h1>
+        <div class="periodic-table">
+            <div class="table-wrapper">
+                <div class="scroll-area">
+                    <div class="element-row">
+                        <div id="element-1" class="element non-metalsElement" data-name="Hidrogênio" data-symbol="H"
+                            data-atomicnumber="1" data-settings="">
+                            <div id="element-no-1" class="element-no">
+                                1
+                            </div>
+                            <div id="element-name-1" class="element-name">
+                                H
+                            </div>
+                        </div>
+                        <div class="element-blank"></div>
+                        <div class="element-blank"></div>
+                        <div class="element-blank"></div>
+                        <div class="element-blank"></div>
+                        <div class="element-blank"></div>
+                        <div class="element-blank"></div>
+                        <div class="element-blank"></div>
+                        <div class="element-blank"></div>
+                        <div class="element-blank"></div>
+                        <div class="element-blank"></div>
+                        <div class="element-blank"></div>
+                        <div class="element-blank"></div>
+                        <div class="element-blank"></div>
+                        <div class="element-blank"></div>
+                        <div class="element-blank"></div>
+                        <div class="element-blank"></div>
+                        <div id="element-2" class="element noble-gasesElement" data-name="Hélio">
+                            <div id="element-no-2" class="element-no">
+                                2
+                            </div>
+                            <div id="element-name-2" class="element-name">
+                                He
+                            </div>
+                        </div>
+                    </div>
+                    <div class="element-row">
+                        <div id="element-3" class="element alkali-metalsElement">
+                            <div id="element-no-3" class="element-no">3</div>
+                            <div id="element-name-3" class="element-name">Li</div>
+                        </div>
+                        <div class="element alkaline-earth-metalsElement">
+                            <div id="element-no-4" class="element-no">4</div>
+                            <div id="element-name-4" class="element-name">Be</div>
+                        </div>
+                        <div class="element-blank"></div>
+                        <div class="element-blank"></div>
+                        <div class="element-blank"></div>
+                        <div class="element-blank"></div>
+                        <div class="element-blank"></div>
+                        <div class="element-blank"></div>
+                        <div class="element-blank"></div>
+                        <div class="element-blank"></div>
+                        <div class="element-blank"></div>
+                        <div class="element-blank"></div>
+                        <div class="element semimetalsElement">
+                            <div id="element-no-5" class="element-no">5</div>
+                            <div id="element-name-5" class="element-name">B</div>
+                        </div>
+                        <div class="element non-metalsElement">
+                            <div id="element-no-6" class="element-no ">6</div>
+                            <div id="element-name-6" class="element-name">C</div>
+                        </div>
+                        <div class="element non-metalsElement">
+                            <div id="element-no-7" class="element-no">7</div>
+                            <div id="element-name-7" class="element-name">N</div>
+                        </div>
+                        <div class="element non-metalsElement">
+                            <div id="element-no-8" class="element-no">8</div>
+                            <div id="element-name-8" class="element-name">O</div>
+                        </div>
+                        <div class="element halogensElement">
+                            <div id="element-no-9" class="element-no">9</div>
+                            <div id="element-name-9" class="element-name">F</div>
+                        </div>
+                        <div class="element noble-gasesElement">
+                            <div id="element-no-10" class="element-no">10</div>
+                            <div id="element-name-10" class="element-name">Ne</div>
+                        </div>
+                    </div>
+                    <div class="element-row">
+                        <div class="element alkali-metalsElement">
+                            <div id="element-no-11" class="element-no">11</div>
+                            <div id="element-name-11" class="element-name">Na</div>
+                        </div>
+                        <div class="element alkaline-earth-metalsElement">
+                            <div id="element-no-12" class="element-no">12</div>
+                            <div id="element-name-12" class="element-name">Mg</div>
+                        </div>
+                        <div class="element-blank"></div>
+                        <div class="element-blank"></div>
+                        <div class="element-blank"></div>
+                        <div class="element-blank"></div>
+                        <div class="element-blank"></div>
+                        <div class="element-blank"></div>
+                        <div class="element-blank"></div>
+                        <div class="element-blank"></div>
+                        <div class="element-blank"></div>
+                        <div class="element-blank"></div>
+                        <div class="element other-metalsElement">
+                            <div id="element-no-13" class="element-no">13</div>
+                            <div id="element-name-13" class="element-name">Al</div>
+                        </div>
+                        <div class="element semimetalsElement">
+                            <div id="element-no-14" class="element-no">14</div>
+                            <div id="element-name-14" class="element-name">Si</div>
+                        </div>
+                        <div class="element non-metalsElement">
+                            <div id="element-no-15" class="element-no">15</div>
+                            <div id="element-name-15" class="element-name">P</div>
+                        </div>
+                        <div class="element non-metalsElement">
+                            <div id="element-no-16" class="element-no">16</div>
+                            <div id="element-name-16" class="element-name">S</div>
+                        </div>
+                        <div class="element halogensElement">
+                            <div id="element-no-17" class="element-no">17</div>
+                            <div id="element-name-17" class="element-name">Cl</div>
+                        </div>
+                        <div class="element noble-gasesElement">
+                            <div id="element-no-18" class="element-no">18</div>
+                            <div id="element-name-18" class="element-name">Ar</div>
+                        </div>
+                    </div>
+                    <div class="element-row">
+                        <div class="element alkali-metalsElement">
+                            <div id="element-no-19" class="element-no">19</div>
+                            <div id="element-name-19" class="element-name">K</div>
+                        </div>
+                        <div class="element alkaline-earth-metalsElement">
+                            <div id="element-no-20" class="element-no">20</div>
+                            <div id="element-name-20" class="element-name">Ca</div>
+                        </div>
+                        <div class="element transition-metalsElement">
+                            <div id="element-no-21" class="element-no">21</div>
+                            <div id="element-name-21" class="element-name">Sc</div>
+                        </div>
+                        <div class="element transition-metalsElement">
+                            <div id="element-no-" class="element-no">22</div>
+                            <div id="element-name-" class="element-name">Ti</div>
+                        </div>
+                        <div class="element transition-metalsElement">
+                            <div id="element-no-" class="element-no">23</div>
+                            <div id="element-name-" class="element-name">V</div>
+                        </div>
+                        <div class="element transition-metalsElement">
+                            <div id="element-no-" class="element-no">24</div>
+                            <div id="element-name-" class="element-name">Cr</div>
+                        </div>
+                        <div class="element transition-metalsElement">
+                            <div id="element-no-" class="element-no">25</div>
+                            <div id="element-name-" class="element-name">Mn</div>
+                        </div>
+                        <div class="element transition-metalsElement">
+                            <div id="element-no-" class="element-no">26</div>
+                            <div id="element-name-" class="element-name">Fe</div>
+                        </div>
+                        <div class="element transition-metalsElement">
+                            <div id="element-no-" class="element-no">27</div>
+                            <div id="element-name-" class="element-name">Co</div>
+                        </div>
+                        <div class="element transition-metalsElement">
+                            <div id="element-no-" class="element-no">28</div>
+                            <div id="element-name-" class="element-name">Ni</div>
+                        </div>
+                        <div class="element transition-metalsElement">
+                            <div id="element-no-" class="element-no">29</div>
+                            <div id="element-name-" class="element-name">Cu</div>
+                        </div>
+                        <div class="element transition-metalsElement">
+                            <div id="element-no-" class="element-no">30</div>
+                            <div id="element-name-" class="element-name">Zn</div>
+                        </div>
+                        <div class="element other-metalsElement">
+                            <div id="element-no-" class="element-no">31</div>
+                            <div id="element-name-" class="element-name">Ga</div>
+                        </div>
+                        <div class="element semimetalsElement">
+                            <div id="element-no-" class="element-no">32</div>
+                            <div id="element-name-" class="element-name">Ge</div>
+                        </div>
+                        <div class="element semimetalsElement">
+                            <div id="element-no-" class="element-no">33</div>
+                            <div id="element-name-" class="element-name">As</div>
+                        </div>
+                        <div class="element non-metalsElement">
+                            <div id="element-no-" class="element-no">34</div>
+                            <div id="element-name-" class="element-name">Se</div>
+                        </div>
+                        <div class="element halogensElement">
+                            <div id="element-no-" class="element-no">35</div>
+                            <div id="element-name-" class="element-name">Br</div>
+                        </div>
+                        <div class="element noble-gasesElement">
+                            <div id="element-no-" class="element-no">36</div>
+                            <div id="element-name-" class="element-name">Kr</div>
+                        </div>
+                    </div>
+                    <div class="element-row">
+                        <div class="element alkali-metalsElement">
+                            <div id="element-no-" class="element-no">37</div>
+                            <div id="element-name-" class="element-name">Rb</div>
+                        </div>
+                        <div class="element alkaline-earth-metalsElement">
+                            <div id="element-no-" class="element-no">38</div>
+                            <div id="element-name-" class="element-name">Sr</div>
+                        </div>
+                        <div class="element transition-metalsElement">
+                            <div id="element-no-" class="element-no">39</div>
+                            <div id="element-name-" class="element-name">Y</div>
+                        </div>
+                        <div class="element transition-metalsElement">
+                            <div id="element-no-" class="element-no">40</div>
+                            <div id="element-name-" class="element-name">Zr</div>
+                        </div>
+                        <div class="element transition-metalsElement">
+                            <div id="element-no-" class="element-no">41</div>
+                            <div id="element-name-" class="element-name">Nb</div>
+                        </div>
+                        <div class="element transition-metalsElement">
+                            <div id="element-no-" class="element-no">42</div>
+                            <div id="element-name-" class="element-name">Mo</div>
+                        </div>
+                        <div class="element transition-metalsElement">
+                            <div id="element-no-" class="element-no">43</div>
+                            <div id="element-name-" class="element-name">Tc</div>
+                        </div>
+                        <div class="element transition-metalsElement">
+                            <div id="element-no-" class="element-no">44</div>
+                            <div id="element-name-" class="element-name">Ru</div>
+                        </div>
+                        <div class="element transition-metalsElement">
+                            <div id="element-no-" class="element-no">45</div>
+                            <div id="element-name-" class="element-name">Rh</div>
+                        </div>
+                        <div class="element transition-metalsElement">
+                            <div id="element-no-" class="element-no">46</div>
+                            <div id="element-name-" class="element-name">Pd</div>
+                        </div>
+                        <div class="element transition-metalsElement">
+                            <div id="element-no-" class="element-no">47</div>
+                            <div id="element-name-" class="element-name">Ag</div>
+                        </div>
+                        <div class="element transition-metalsElement">
+                            <div id="element-no-" class="element-no">48</div>
+                            <div id="element-name-" class="element-name">Cd</div>
+                        </div>
+                        <div class="element other-metalsElement">
+                            <div id="element-no-" class="element-no">49</div>
+                            <div id="element-name-" class="element-name">In</div>
+                        </div>
+                        <div class="element other-metalsElement">
+                            <div id="element-no-" class="element-no">50</div>
+                            <div id="element-name-" class="element-name">Sn</div>
+                        </div>
+                        <div class="element semimetalsElement">
+                            <div id="element-no-" class="element-no">51</div>
+                            <div id="element-name-" class="element-name">Sb</div>
+                        </div>
+                        <div class="element semimetalsElement">
+                            <div id="element-no-" class="element-no">52</div>
+                            <div id="element-name-" class="element-name">Te</div>
+                        </div>
+                        <div class="element halogensElement">
+                            <div id="element-no-" class="element-no">53</div>
+                            <div id="element-name-" class="element-name">I</div>
+                        </div>
+                        <div class="element noble-gasesElement">
+                            <div id="element-no-" class="element-no">54</div>
+                            <div id="element-name-" class="element-name">Xe</div>
+                        </div>
+                    </div>
+                    <div class="element-row">
+                        <div class="element alkali-metalsElement">
+                            <div id="element-no-" class="element-no">55</div>
+                            <div id="element-name-" class="element-name">Cs</div>
+                        </div>
+                        <div class="element alkaline-earth-metalsElement">
+                            <div id="element-no-" class="element-no">56</div>
+                            <div id="element-name-" class="element-name">Ba</div>
+                        </div>
+                        <div class="element" style="border: none; cursor: default;">
+                            <div id="element-no-57-71" class="element-no">57-71</div>
+                        </div>
+                        <div class="element transition-metalsElement">
+                            <div id="element-no-" class="element-no">72</div>
+                            <div id="element-name-" class="element-name">Hf</div>
+                        </div>
+                        <div class="element transition-metalsElement">
+                            <div id="element-no-" class="element-no">73</div>
+                            <div id="element-name-" class="element-name">Ta</div>
+                        </div>
+                        <div class="element transition-metalsElement">
+                            <div id="element-no-" class="element-no">74</div>
+                            <div id="element-name-" class="element-name">W</div>
+                        </div>
+                        <div class="element transition-metalsElement">
+                            <div id="element-no-" class="element-no">75</div>
+                            <div id="element-name-" class="element-name">Re</div>
+                        </div>
+                        <div class="element transition-metalsElement">
+                            <div id="element-no-" class="element-no">76</div>
+                            <div id="element-name-" class="element-name">Os</div>
+                        </div>
+                        <div class="element transition-metalsElement">
+                            <div id="element-no-" class="element-no">77</div>
+                            <div id="element-name-" class="element-name">Ir</div>
+                        </div>
+                        <div class="element transition-metalsElement">
+                            <div id="element-no-" class="element-no">78</div>
+                            <div id="element-name-" class="element-name">Pt</div>
+                        </div>
+                        <div class="element transition-metalsElement">
+                            <div id="element-no-" class="element-no">79</div>
+                            <div id="element-name-" class="element-name">Au</div>
+                        </div>
+                        <div class="element transition-metalsElement">
+                            <div id="element-no-" class="element-no">80</div>
+                            <div id="element-name-" class="element-name">Hg</div>
+                        </div>
+                        <div class="element other-metalsElement">
+                            <div id="element-no-" class="element-no">81</div>
+                            <div id="element-name-" class="element-name">Ti</div>
+                        </div>
+                        <div class="element other-metalsElement">
+                            <div id="element-no-" class="element-no">82</div>
+                            <div id="element-name-" class="element-name">Pb</div>
+                        </div>
+                        <div class="element other-metalsElement">
+                            <div id="element-no-" class="element-no">83</div>
+                            <div id="element-name-" class="element-name">Bi</div>
+                        </div>
+                        <div class="element semimetalsElement">
+                            <div id="element-no-" class="element-no">84</div>
+                            <div id="element-name-" class="element-name">Po</div>
+                        </div>
+                        <div class="element halogensElement">
+                            <div id="element-no-" class="element-no">85</div>
+                            <div id="element-name-" class="element-name">At</div>
+                        </div>
+                        <div class="element noble-gasesElement">
+                            <div id="element-no-" class="element-no">86</div>
+                            <div id="element-name-" class="element-name">Rn</div>
+                        </div>
+                    </div>
+                    <div class="element-row">
+                        <div class="element alkali-metalsElement">
+                            <div id="element-no-" class="element-no">87</div>
+                            <div id="element-name-" class="element-name">Fr</div>
+                        </div>
+                        <div class="element alkaline-earth-metalsElement">
+                            <div id="element-no-" class="element-no">88</div>
+                            <div id="element-name-" class="element-name">Ra</div>
+                        </div>
+                        <div class="element" style="border:none; cursor: default;">
+                            <div id="element-no-89-103" class="element-no">89-103</div>
+                        </div>
+                        <div class="element transition-metalsElement">
+                            <div id="element-no-" class="element-no">104</div>
+                            <div id="element-name-" class="element-name">Rf</div>
+                        </div>
+                        <div class="element transition-metalsElement">
+                            <div id="element-no-" class="element-no">105</div>
+                            <div id="element-name-" class="element-name">Db</div>
+                        </div>
+                        <div class="element transition-metalsElement">
+                            <div id="element-no-" class="element-no">106</div>
+                            <div id="element-name-" class="element-name">Sg</div>
+                        </div>
+                        <div class="element transition-metalsElement">
+                            <div id="element-no-" class="element-no">107</div>
+                            <div id="element-name-" class="element-name">Bh</div>
+                        </div>
+                        <div class="element transition-metalsElement">
+                            <div id="element-no-" class="element-no">108</div>
+                            <div id="element-name-" class="element-name">Hs</div>
+                        </div>
+                        <div class="element transition-metalsElement">
+                            <div id="element-no-" class="element-no">109</div>
+                            <div id="element-name-" class="element-name">Mt</div>
+                        </div>
+                        <div class="element transition-metalsElement">
+                            <div id="element-no-" class="element-no">110</div>
+                            <div id="element-name-" class="element-name">Ds</div>
+                        </div>
+                        <div class="element transition-metalsElement">
+                            <div id="element-no-" class="element-no">111</div>
+                            <div id="element-name-" class="element-name">Rg</div>
+                        </div>
+                        <div class="element transition-metalsElement">
+                            <div id="element-no-" class="element-no">112</div>
+                            <div id="element-name-" class="element-name">Cn</div>
+                        </div>
+                        <div class="element other-metalsElement">
+                            <div id="element-no-" class="element-no">113</div>
+                            <div id="element-name-" class="element-name">Nh</div>
+                        </div>
+                        <div class="element other-metalsElement">
+                            <div id="element-no-" class="element-no">114</div>
+                            <div id="element-name-" class="element-name">Fl</div>
+                        </div>
+                        <div class="element other-metalsElement">
+                            <div id="element-no-" class="element-no">115</div>
+                            <div id="element-name-" class="element-name">Mc</div>
+                        </div>
+                        <div class="element other-metalsElement">
+                            <div id="element-no-" class="element-no">116</div>
+                            <div id="element-name-" class="element-name">Lv</div>
+                        </div>
+                        <div class="element halogensElement">
+                            <div id="element-no-" class="element-no">117</div>
+                            <div id="element-name-" class="element-name">Ts</div>
+                        </div>
+                        <div class="element noble-gasesElement">
+                            <div id="element-no-" class="element-no">118</div>
+                            <div id="element-name-" class="element-name">Og
+                                <div id="element-no-" class="element-no"></div>
+                                <div id="element-name-" class="element-name"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blank-row"></div>
+                    <div class="element-row">
+                        <div class="element-blank"></div>
+                        <div class="element-blank"></div>
+                        <div class="element-blank"></div>
+                        <div class="element lanthanidesElement">
+                            <div id="element-no-" class="element-no">57</div>
+                            <div id="element-name-" class="element-name">La</div>
+                        </div>
+                        <div class="element lanthanidesElement">
+                            <div id="element-no-" class="element-no">58</div>
+                            <div id="element-name-" class="element-name">Ce</div>
+                        </div>
+                        <div class="element lanthanidesElement">
+                            <div id="element-no-" class="element-no">59</div>
+                            <div id="element-name-" class="element-name">Pr</div>
+                        </div>
+                        <div class="element lanthanidesElement">
+                            <div id="element-no-" class="element-no">60</div>
+                            <div id="element-name-" class="element-name">Nd</div>
+                        </div>
+                        <div class="element lanthanidesElement">
+                            <div id="element-no-" class="element-no">61</div>
+                            <div id="element-name-" class="element-name">Pm</div>
+                        </div>
+                        <div class="element lanthanidesElement">
+                            <div id="element-no-" class="element-no">62</div>
+                            <div id="element-name-" class="element-name">Sm</div>
+                        </div>
+                        <div class="element lanthanidesElement">
+                            <div id="element-no-" class="element-no">63</div>
+                            <div id="element-name-" class="element-name">Eu</div>
+                        </div>
+                        <div class="element lanthanidesElement">
+                            <div id="element-no-" class="element-no">64</div>
+                            <div id="element-name-" class="element-name">Gd</div>
+                        </div>
+                        <div class="element lanthanidesElement">
+                            <div id="element-no-" class="element-no">65</div>
+                            <div id="element-name-" class="element-name">Tb</div>
+                        </div>
+                        <div class="element lanthanidesElement">
+                            <div id="element-no-" class="element-no">66</div>
+                            <div id="element-name-" class="element-name">Dy</div>
+                        </div>
+                        <div class="element lanthanidesElement">
+                            <div id="element-no-" class="element-no">67</div>
+                            <div id="element-name-" class="element-name">Ho</div>
+                        </div>
+                        <div class="element lanthanidesElement">
+                            <div id="element-no-" class="element-no">68</div>
+                            <div id="element-name-" class="element-name">Er</div>
+                        </div>
+                        <div class="element lanthanidesElement">
+                            <div id="element-no-" class="element-no">69</div>
+                            <div id="element-name-" class="element-name">Tm</div>
+                        </div>
+                        <div class="element lanthanidesElement">
+                            <div id="element-no-" class="element-no">70</div>
+                            <div id="element-name-" class="element-name">Yb</div>
+                        </div>
+                        <div class="element lanthanidesElement">
+                            <div id="element-no-" class="element-no">71</div>
+                            <div id="element-name-" class="element-name">Lu</div>
+                        </div>
+                    </div>
+                    <div class="element-row">
+                        <div class="element-blank"></div>
+                        <div class="element-blank"></div>
+                        <div class="element-blank"></div>
+                        <div class="element actinidesElement">
+                            <div id="element-no-" class="element-no">89</div>
+                            <div id="element-name-" class="element-name">Ac</div>
+                        </div>
+                        <div class="element actinidesElement">
+                            <div id="element-no-" class="element-no">90</div>
+                            <div id="element-name-" class="element-name">Th</div>
+                        </div>
+                        <div class="element actinidesElement">
+                            <div id="element-no-" class="element-no">91</div>
+                            <div id="element-name-" class="element-name">Pa</div>
+                        </div>
+                        <div class="element actinidesElement">
+                            <div id="element-no-" class="element-no">92</div>
+                            <div id="element-name-" class="element-name">U</div>
+                        </div>
+                        <div class="element actinidesElement">
+                            <div id="element-no-" class="element-no">93</div>
+                            <div id="element-name-" class="element-name">Np</div>
+                        </div>
+                        <div class="element actinidesElement">
+                            <div id="element-no-" class="element-no">94</div>
+                            <div id="element-name-" class="element-name">Pu</div>
+                        </div>
+                        <div class="element actinidesElement">
+                            <div id="element-no-" class="element-no">95</div>
+                            <div id="element-name-" class="element-name">Am</div>
+                        </div>
+                        <div class="element actinidesElement">
+                            <div id="element-no-" class="element-no">96</div>
+                            <div id="element-name-" class="element-name">Cm</div>
+                        </div>
+                        <div class="element actinidesElement">
+                            <div id="element-no-" class="element-no">97</div>
+                            <div id="element-name-" class="element-name">Bk</div>
+                        </div>
+                        <div class="element actinidesElement">
+                            <div id="element-no-" class="element-no">98</div>
+                            <div id="element-name-" class="element-name">Cf</div>
+                        </div>
+                        <div class="element actinidesElement">
+                            <div id="element-no-" class="element-no">99</div>
+                            <div id="element-name-" class="element-name">Es</div>
+                        </div>
+                        <div class="element actinidesElement">
+                            <div id="element-no-" class="element-no">100</div>
+                            <div id="element-name-" class="element-name">Fm</div>
+                        </div>
+                        <div class="element actinidesElement">
+                            <div id="element-no-" class="element-no">101</div>
+                            <div id="element-name-" class="element-name">Md</div>
+                        </div>
+                        <div class="element actinidesElement">
+                            <div id="element-no-" class="element-no">102</div>
+                            <div id="element-name-" class="element-name">No</div>
+                        </div>
+                        <div class="element actinidesElement">
+                            <div id="element-no-" class="element-no">103</div>
+                            <div id="element-name-" class="element-name">Lr</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="elements-captions">
+            <div class="element-caption non-metals"><span>Não metais</span></div>
+            <div class="element-caption noble-gases"><span>Gases nobres</span></div>
+            <div class="element-caption alkali-metals"><span>Metais alcalinos</span></div>
+            <div class="element-caption alkaline-earth-metals"><span>Metais alcalino-terrosos</span></div>
+            <div class="element-caption semimetals"><span>Semimetais</span></div>
+            <div class="element-caption halogens"><span>Halogênios</span></div>
+            <div class="element-caption other-metals"><span>Outros Metais</span></div>
+            <div class="element-caption transition-metals"><span>Metais de transição</span></div>
+            <div class="element-caption lanthanides"><span>Lantanídeos</span></div>
+            <div class="element-caption actinides"><span>Actinídios</span></div>
+        </div>
+    </div>
+
+    <script src="public/assets/js/bundle.js"></script>
+</body>
+
+</html>
