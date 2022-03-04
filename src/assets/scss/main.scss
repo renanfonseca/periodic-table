@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: white;
+}   
+
+body {
+  overflow: hidden;
+    background: linear-gradient(359deg, rgba(2,0,36,1) 0%, rgba(34,0,54,1) 90%);
+}
+
+
+// ***********
+
+   
+  /* ---- particles.js container ---- */
+  
+  #particles-js {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    z-index: -50;
+  }
+  

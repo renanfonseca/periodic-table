@@ -1,0 +1,232 @@
+.periodic-table-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 1170px;
+    height: 100vh;
+    margin: auto;
+
+        &::before {
+            display: table;
+        }
+
+        h1 {
+            margin-top: 2.5rem;
+            margin-bottom: 1.125rem;
+            font-size: 48px;
+            font-weight: 700;
+        }
+    
+
+    .periodic-table {
+        align-self: center;
+        position: relative;
+        display: block;
+        overflow-x: auto;
+        
+
+        .table-wrapper {
+            width: 900px;
+            position: relative;
+            display: inline-block;
+            
+            .scroll-area{
+                
+                .element-row {
+                    display: flex;
+                    margin-bottom: 4px;
+
+                    .element {
+                        position: relative;
+                        display: flex;
+                        flex-direction: column;
+                        height: 48px;
+                        width: 50px;
+                        margin-right: 3px;
+                        margin-left: 3px;
+                        border: 1px  solid rgba(#fff, $alpha: 0.3);
+                        border-radius: 3px;
+                        font-weight: 300;
+                        cursor: pointer;
+
+                        .element-no {
+                            font-size: 11px;
+                            margin-left: 6px;
+                            margin-top: 3px;
+                        }
+
+                        .element-name {
+                            margin-top: -3px;
+                            font-size: 20px;
+                            align-self: center;
+                            font-weight: 700;
+                        }
+
+                        
+                    }
+
+                    .element-blank {
+                        height: 48px;
+                        width: 50px;
+                        margin-right: 3px;
+                        margin-left: 3px;
+                    }
+                    
+                }
+
+                .blank-row {
+                    height: 20px;
+                }
+            }
+        }
+    }
+
+    .elements-captions {
+        margin-top: 2.5rem;  
+        column-count: 5;
+        max-width: 1170px;
+        align-self: center;
+        
+        .element-caption {
+            margin: 0, 10px, 20px;
+            
+                span {
+                    cursor: pointer;
+                }
+        
+            &:before {
+                content: "";
+                display: inline-block;
+                min-width: 20px;
+                min-height: 20px;
+                margin-right: 0.375rem;
+            }
+        }
+
+        .non-metals:before {
+            background-color: #a1d344;
+        }
+
+        .noble-gases::before {
+            background-color: #3d9ee3;
+        }
+
+        .alkali-metals::before {
+            background-color: #f1b200;
+        }
+
+        .alkaline-earth-metals::before {
+            background-color: #eada00;
+        }
+        
+        .semimetals::before {
+            background-color: #4db6ac;
+        }
+
+        .halogens::before {
+            background-color: #70cbeb;
+        }
+
+        .other-metals::before {
+            background-color: #a2c7d3;
+        }
+
+        .transition-metals::before {
+            background-color: #eb8e8e;
+        }
+
+        .lanthanides::before {
+            background-color: #90e3e9;
+        }
+
+        .actinides::before {
+            background-color: #dcadd6;
+        }
+    }
+
+}
+
+.non-metalsElement:hover {
+    background: #a1d344;
+}
+
+.noble-gasesElement:hover {
+    background-color: #3d9ee3;
+}
+
+.alkali-metalsElement:hover {
+    background-color: #f1b200;
+}
+
+.alkaline-earth-metalsElement:hover {
+    background-color: #eada00;
+}
+
+.semimetalsElement:hover {
+    background-color: #4db6ac;
+}
+
+.halogensElement:hover {
+    background-color: #70cbeb;
+}
+
+.other-metalsElement:hover {
+    background-color: #a2c7d3;
+}
+
+.transition-metalsElement:hover {
+    background-color: #eb8e8e;
+}
+
+.lanthanidesElement:hover {
+    background-color: #90e3e9;
+}
+
+.actinidesElement:hover {
+    background-color: #dcadd6;
+}
+
+@media (max-width: 415px) {
+
+    body {
+        overflow-y: scroll;
+    }
+    
+
+    .periodic-table-container {
+        display: block;
+
+            h1 {
+                font-size: 30px;
+                margin-left: 15px;
+            }
+    }
+    
+    .periodic-table {
+        max-width: 400px;
+        padding-left: 3px;
+        padding-right: 3px;
+    }
+
+    .elements-captions {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 400px;
+        margin-top: 2rem;
+        height: 120px;
+        margin-left: 15px;
+
+            .element-caption {
+                display: inline-block;
+                padding: 5px;
+                width: 50%;
+                margin: auto;
+            }
+    }
+
+
+
+}
+
+// *************************************************
+
+
